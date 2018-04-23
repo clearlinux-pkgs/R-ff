@@ -4,7 +4,7 @@
 #
 Name     : R-ff
 Version  : 2.2.13
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/ff_2.2-13.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ff_2.2-13.tar.gz
 Summary  : memory-efficient storage of large data on disk and fast access
