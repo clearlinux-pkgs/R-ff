@@ -4,7 +4,7 @@
 #
 Name     : R-ff
 Version  : 4.0.9
-Release  : 50
+Release  : 51
 URL      : https://cran.r-project.org/src/contrib/ff_4.0.9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ff_4.0.9.tar.gz
 Summary  : Memory-Efficient Storage of Large Data on Disk and Fast Access
@@ -14,9 +14,6 @@ Requires: R-ff-lib = %{version}-%{release}
 Requires: R-bit
 BuildRequires : R-bit
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 disk but behave (almost) as if they were in RAM by transparently 
@@ -76,10 +73,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1674751334
+export SOURCE_DATE_EPOCH=1678818899
 
 %install
-export SOURCE_DATE_EPOCH=1674751334
+export SOURCE_DATE_EPOCH=1678818899
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
