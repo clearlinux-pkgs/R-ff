@@ -4,7 +4,7 @@
 #
 Name     : R-ff
 Version  : 4.0.9
-Release  : 54
+Release  : 55
 URL      : https://cran.r-project.org/src/contrib/ff_4.0.9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ff_4.0.9.tar.gz
 Summary  : Memory-Efficient Storage of Large Data on Disk and Fast Access
